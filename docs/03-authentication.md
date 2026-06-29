@@ -44,7 +44,7 @@ Password: password
 
 After a successful login, click the **Grant Access** button to authorize Swagger to access the DIRACX APIs on your behalf.
 
-![Swagger grant](screenshots/swagger-grantacess.png)
+![Swagger grant](screenshots/swagger-grantaccess.png)
 
 
 ## Bearer token
