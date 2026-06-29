@@ -29,11 +29,11 @@ The **client_id** field is already populated. Under **Scopes**, select:
 
 Then click **Authorize**.
 
-![Swagger Authentication](docs/screenshots/swagger-auth.png)
+![Swagger Authentication](screenshots/swagger-auth.png)
 
 After clicking **Authorize**, you will be redirected to the Dex login page.
 
-![Swagger Login](docs/screenshots/swagger-login.png)
+![Swagger Login](screenshots/swagger-login.png)
 
 Log in using the demo credentials:
 
@@ -44,7 +44,7 @@ Password: password
 
 After a successful login, click the **Grant Access** button to authorize Swagger to access the DIRACX APIs on your behalf.
 
-![Swagger grant](docs/screenshots/swagger-grantacess.png)
+![Swagger grant](screenshots/swagger-grantacess.png)
 
 
 ## Bearer token
