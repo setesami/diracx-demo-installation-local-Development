@@ -19,6 +19,9 @@ The DIRACX demo exposes the Swagger API documentation at:
 ```text
 https://<IP>.nip.io:8000/api/docs
 ```
+Here is a screenshot of all authentication APIs
+
+![Swagger aut-apis](screenshots/Auth-API.png)
 
 To authenticate, click the **Authorize** button located in the upper-right corner of the Swagger page.
 
