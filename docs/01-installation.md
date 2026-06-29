@@ -158,36 +158,6 @@ docker pull opensearchproject/opensearch:2.8.0
 docker pull docker.io/library/redis:7.4.2-alpine
 ```
 
-## Notes
-
-The DIRACX images serve the following purposes.
-
-### Services Image
-
-```bash
-ghcr.io/diracgrid/diracx/services:v0.1.0
-```
-
-Contains:
-
-- DIRACX services
-- Python runtime
-- Dependencies
-- Entrypoints
-- Service scripts
-
-### Secret Generation Image
-
-```bash
-ghcr.io/diracgrid/diracx/secret-generation:latest
-```
-
-Used to:
-
-- Generate JWT keys
-- Create Kubernetes secrets
-- Initialize authentication
-
 ## Docker Hub Rate Limits
 
 If images are pulled repeatedly, Docker Hub may return a rate-limit error.

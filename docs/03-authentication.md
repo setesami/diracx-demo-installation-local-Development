@@ -14,19 +14,38 @@
 
 ---
 
-
-The DIRACX demo exposes Swagger at:
+The DIRACX demo exposes the Swagger API documentation at:
 
 ```text
 https://<IP>.nip.io:8000/api/docs
 ```
 
-When prompted to log in:
+To authenticate, click the **Authorize** button located in the upper-right corner of the Swagger page.
+
+The **client_id** field is already populated. Under **Scopes**, select:
+
+* `vo:diracAdmin`
+* `property:NormalUser`
+
+Then click **Authorize**.
+
+![Swagger Authentication](docs/screenshots/swagger-auth.png)
+
+After clicking **Authorize**, you will be redirected to the Dex login page.
+
+![Swagger Login](docs/screenshots/swagger-login.png)
+
+Log in using the demo credentials:
 
 ```text
 Username: admin@example.com
 Password: password
 ```
+
+After a successful login, click the **Grant Access** button to authorize Swagger to access the DIRACX APIs on your behalf.
+
+![Swagger grant](docs/screenshots/swagger-grantacess.png)
+
 
 ## Bearer token
 
@@ -58,15 +77,6 @@ A protected endpoint is an API that requires authentication.
 
 For example, job submission, job search, and job status update require the Bearer token.
 
-## Screenshots to add
-
-Suggested screenshots:
-
-```text
-docs/screenshots/swagger-auth-login.png
-docs/screenshots/swagger-authorize-modal.png
-docs/screenshots/swagger-token-success.png
-```
 
 ---
 
